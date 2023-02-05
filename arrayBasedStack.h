@@ -34,10 +34,8 @@ template <typename E>
 Stack<E>::Stack() {
     t = -1;
     elemCount = 0;
-    capacity = 10;
+    capacity = 5;
     S[capacity] = {0};
-
-
 }
 
 template <typename E> 
