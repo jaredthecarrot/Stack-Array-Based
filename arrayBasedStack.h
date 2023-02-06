@@ -7,7 +7,7 @@ template <typename E>
 class Stack {
     private:
     int t, capacity, elemCount;
-    E S[];
+    E S[0];
 
     public:
     Stack();
